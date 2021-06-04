@@ -1,0 +1,151 @@
+.header{
+    width: 100%;
+    padding: 30px 3.5%;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .itens-ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header .itens-ul .itens-li{
+    margin-left: 30px;
+}
+.header .itens-ul .itens-li a{
+    text-decoration: none;
+    color: #ebebeb;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.header .itens-ul .itens-li a:hover{
+    color: #8a8a8a;
+}
+.header img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.inicio .titles{
+    position: absolute;
+    left: 80px;
+    bottom: 90px;
+}
+.inicio .titles a{
+    text-decoration: none;
+}
+.inicio .titles a h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.inicio .titles h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+
+.pagina .section-sobre{
+    top: 0;
+    left: 0;
+    padding: 90px 5%;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 20000;
+}
+.pagina .section-sobre .title-sobre1 h1{
+    font-size: 20px;
+    color: #ffffff;
+}
+.pagina .section-sobre .title-sobre2{
+    max-width: 500px;
+}
+.pagina .section-sobre .title-sobre2 h3{
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff;
+}
+.pagina .section-sobre .title-sobre2 h3 strong{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.inicio .parallax{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.sobre{
+    /* background-image: url('../img/espresso.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.sanduba{
+    background-image: url('../img/sandwich.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.jarra-de-cafe{
+    background-image: url('../img/coffee.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.contato{
+    width: 100%;
+    height: 80vh;
+    padding: 0 10%;
+    background-color: #202020;
+}
+.contato .contact-titles1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contato .contact-titles1 .container-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato .contact-titles1 .container-title .text-title h1{
+    color: #ffffff;
+    font-size: 15px;
+}
+.contato .contact-titles1 .container-title .text-title{
+    max-width: 200px;
+    margin-top: 50%;
+}
+.contato .contact-titles1 .container-title .text-title h5{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
